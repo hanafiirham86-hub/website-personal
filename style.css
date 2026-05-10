@@ -1,0 +1,421 @@
+/* kenapa kok ada ''.aplikasi, 
+.bahasa, 
+.keahlian, 
+.hobi {
+    margin-top: 10px;   
+    margin-bottom: 20px;
+}'' memiliki 4 class, karena yang isinya itu sama*/
+
+/* trasform?? trasition??*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+}
+
+/* bagian NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0f0f0f;
+}
+
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a.aktif,
+nav ul li a:hover {
+    color: #fff;
+}
+
+.phone {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* bagian home */
+.resume_kotak {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    height: 90vh;
+}
+
+.resume-text {
+    margin-top: 60px;
+}
+
+.resume-text h2 {
+    font-size: 38px;
+}
+
+.resume-text h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.tombol_alternatif {
+    margin: 25px 5px;
+}
+
+.btn1 {
+    padding: 10px 25px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.btn1:hover {
+    background-color: #000;
+    color: white;
+}
+
+.btn2 {
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: #000;
+}
+
+.sosmed a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
+.foto_profil img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* bagian tentangku */
+.tentangku_kotak {
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+
+.tentangku-text {
+    width: 45%;
+}
+
+.email {
+    margin: 10px 0;
+    color: #6ab5ff;
+}
+
+.deskripsi {
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.Alamat {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.skill_kotak {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+
+.kotak_kiri, .kotak_kanan {
+    width: 45%;
+}
+
+.aplikasi, 
+.bahasa, 
+.keahlian, 
+.hobi {
+    margin-top: 10px;   
+    margin-bottom: 20px;
+}
+
+.kotak_kiri li {
+    margin-bottom: 8px;
+    color: #ccc;
+    list-style: none;
+}
+
+.kotak_kanan li {
+    margin-bottom: 8px;
+    color: #ccc;
+    list-style: none;
+}
+
+.pengalaman_kerja .kerja {
+    margin-bottom: 25px;
+}
+
+.pengalaman_kerja .tahun {
+    color: #6ab5ff;
+    font-size: 14px;
+}
+
+.hasil {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.hasil h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.hasil div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.hasil img {
+    height: 240px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.hasil img:hover {
+    transform: scale(1.05);
+}
+
+.hasil_stiker {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.hasil_stiker div {
+    display: flex;
+    justify-content: center;
+}
+
+.hasil_stiker img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.hasil_stiker img:hover {
+    transform: scale(1.05);
+}
+
+
+/* bagian kontak*/
+#kontak {
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 80px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.kotak_hubungan {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.kontak-info {
+    flex: 1;
+}
+
+.kontak-info h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.kontak-info p {
+    margin: 10px 0;
+    color: #e5e5e5;
+}
+
+.kontak-info .desc {
+    color: #cfcfcf;
+    margin-bottom: 25px;
+}
+
+.kontak-info a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+
+.kontak-info a:hover {
+    text-decoration: underline;
+}
+
+.kontak-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+    background-color: #0f0f0f;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.kontak-form input::placeholder,
+.kontak-form textarea::placeholder {
+    color: #888;
+}
+
+.kontak-form button {
+    background-color: #4da6ff;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.kontak-form button:hover {
+    background-color: #1f7ed1;
+}
+
+/* RESPONSIVE MOBILE (LAYAR ≤ 768px) */
+@media (max-width: 760px) {
+
+    /* bagian NAVBAR */
+    nav {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .phone {
+        font-size: 12px;
+    }
+
+    /* bagian HOME */
+    .resume_kotak {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        height: auto;
+        gap: 40px;
+    }
+
+    .resume-text h1 {
+        font-size: 36px;
+    }
+
+    .resume-text h2 {
+        font-size: 24px;
+    }
+
+    .foto_profil img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* bagian TENTANGKU */
+    .tentangku_kotak {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .tentangku-text {
+        width: 100%;
+    }
+
+    /* SKILL & PENGALAMAN */
+    .skill_kotak {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .kotak_kiri,
+    .kotak_kanan {
+        width: 100%;
+    }
+
+    /* HASIL PORTFOLIO GAMBAR */
+    .hasil img {
+        height: 170px;
+    }
+
+    .hasil_stiker img {
+        width: 150px;
+    }
+
+    /* bagian KONTAK */
+    .kotak_hubungan {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 15px;
+        gap: 30px;
+    }
+
+    .kontak-info h2 {
+        font-size: 28px;
+    }
+
+    .kontak-form {
+        width: 100%;
+    }
+}
